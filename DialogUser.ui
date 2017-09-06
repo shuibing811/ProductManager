@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogUser</class>
+ <widget class="QDialog" name="DialogUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>用户</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>用户名：</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>密码：</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>重复输入密码：</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>备注：</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPlainTextEdit" name="teRemark"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>权限</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="checkBox">
+          <property name="text">
+           <string>添加销售记录</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="text">
+           <string>修改销售记录</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QCheckBox" name="checkBox_3">
+          <property name="text">
+           <string>删除销售记录</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>查看销售记录</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QCheckBox" name="checkBox_26">
+          <property name="text">
+           <string>统计销售额</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QCheckBox" name="checkBox_7">
+          <property name="text">
+           <string>添加商品</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QCheckBox" name="checkBox_8">
+          <property name="text">
+           <string>修改商品</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QCheckBox" name="checkBox_6">
+          <property name="text">
+           <string>删除商品</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QCheckBox" name="checkBox_5">
+          <property name="text">
+           <string>查看商品</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QCheckBox" name="checkBox_10">
+          <property name="text">
+           <string>添加商家</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QCheckBox" name="checkBox_12">
+          <property name="text">
+           <string>修改商家</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QCheckBox" name="checkBox_11">
+          <property name="text">
+           <string>删除商家</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QCheckBox" name="checkBox_9">
+          <property name="text">
+           <string>查看添加商家</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QCheckBox" name="checkBox_14">
+          <property name="text">
+           <string>添加运费</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QCheckBox" name="checkBox_16">
+          <property name="text">
+           <string>修改运费</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QCheckBox" name="checkBox_15">
+          <property name="text">
+           <string>删除运费</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QCheckBox" name="checkBox_13">
+          <property name="text">
+           <string>查看运费</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QCheckBox" name="checkBox_25">
+          <property name="text">
+           <string>统计运费</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QCheckBox" name="checkBox_19">
+          <property name="text">
+           <string>添加类别</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QCheckBox" name="checkBox_20">
+          <property name="text">
+           <string>修改类别</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QCheckBox" name="checkBox_18">
+          <property name="text">
+           <string>删除类别</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QCheckBox" name="checkBox_17">
+          <property name="text">
+           <string>查看类别</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QCheckBox" name="checkBox_24">
+          <property name="text">
+           <string>添加用户</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QCheckBox" name="checkBox_22">
+          <property name="text">
+           <string>修改用户</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QCheckBox" name="checkBox_23">
+          <property name="text">
+           <string>删除用户</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QCheckBox" name="checkBox_21">
+          <property name="text">
+           <string>查看用户</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnOk">
+       <property name="text">
+        <string>确定</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancel">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
